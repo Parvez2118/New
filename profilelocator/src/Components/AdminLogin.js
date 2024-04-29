@@ -9,7 +9,7 @@ function AdminLogin() {
     const PostData= async (e) => {
         e.preventDefault();
         
-        const res = await fetch("https://lms-server-sm9p.onrender.com/Loginwarden", {
+        const res = await fetch("http://localhost:8000/Loginadmin", {
             method:"POST",
             headers: {
                 "Content-Type" : "application/json"
@@ -29,14 +29,14 @@ function AdminLogin() {
         else
         {
           window.alert("Logged In Sucessfully");
-              navigate("/viewallstudent");
+              navigate("/dashboard");
         }
     }
     return(
         <>
        
 
-<section class="vh-100" style={{margin:"150px"}}>
+<section class="vh-100">
   <div class="container-fluid h-custom" >
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-md-9 col-lg-6 col-xl-5">

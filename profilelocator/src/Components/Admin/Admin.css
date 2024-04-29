@@ -1,0 +1,21 @@
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     margin: 0 8px;
+     text-decoration: none;
+     margin-top: 2vh;
+     margin-left: 1vw;
+  }
+  .rectangle{
+    border: 1px solid white;
+    border-radius: 20px;
+    position: row-reverse;
+    width: 17vw;
+    display: flex;
+  }
